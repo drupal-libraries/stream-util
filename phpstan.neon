@@ -1,0 +1,8 @@
+parameters:
+  # Ignore tests
+  excludePaths:
+    - tests/*Test.php
+    - tests/*TestBase.php
+  paths:
+    - src/
+  level: 5

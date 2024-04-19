@@ -1,24 +1,20 @@
 # Stream Utilities
 
-[![Author](http://img.shields.io/badge/author-@chrisleppanen-blue.svg?style=flat-square)](https://twitter.com/chrisleppanen)
-[![Build Status](https://img.shields.io/travis/twistor/stream-util/master.svg?style=flat-square)](https://travis-ci.org/twistor/stream-util)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/twistor/stream-util.svg?style=flat-square)](https://scrutinizer-ci.com/g/twistor/stream-util/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/twistor/stream-util.svg?style=flat-square)](https://scrutinizer-ci.com/g/twistor/stream-util)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/twistor/stream-util.svg?style=flat-square)](https://packagist.org/packages/twistor/stream-util)
+[![Packagist Version](https://img.shields.io/packagist/v/drupal-libraries/stream-util.svg?style=flat-square)](https://packagist.org/packages/drupal-libraries/stream-util)
 
-Helper functions for dealing with streams.
+Helper functions for dealing with streams.  Forked from the original library, twistor/stream-util, and updated for PHP8.2 compatibility to work with Flysystem v3.0+.
 
 ## Installation
 
 ```
-composer require twistor/stream-util
+composer require drupal-libraries/stream-util
 ```
 
 ## Usage
 
 ```php
-use Twistor\StreamUtil;
+use DrupalLibraries\StreamUtil;
 
 $stream = fopen('php://temp', 'w+b');
 
